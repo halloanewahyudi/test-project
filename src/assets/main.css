@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --vc-pgn-background-color:#fff;
+  --vc-pgn-width:15px;
+  --vc-pgn-width-active:30px;
+  --vc-pgn-border-radius:12px;
+}
+
+@font-face {
+    font-family: "Atkinson Hyperlegible";
+    src: url("/fonts/AtkinsonHyperlegible-Regular.ttf");
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "Atkinson Hyperlegible";
+    src: url("/fonts/AtkinsonHyperlegible-Bold.ttf");
+    font-weight: bold;
+  }
+  
+  body {
+    font-family: "Atkinson Hyperlegible";
+    min-height: 100vh;
+    font-size: 16px;
+  }
