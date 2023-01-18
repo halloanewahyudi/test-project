@@ -55,8 +55,8 @@ export default {
   <CusCrusor>
     <swiper
       :slidesPerView="1"
-      :spaceBetween="30"
       :mousewheel="true"
+      :speed="1200"
       :pagination="{
         clickable: true,
       }"
