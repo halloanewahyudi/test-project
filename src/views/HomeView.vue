@@ -10,6 +10,7 @@ import WhayChooseUs from '../components/WhayChooseUs.vue';
   <main>
    <Slideshow />
    <WhatWeDo />
+   <WhayChooseUs />
 <Products />
 <HoverImage />
 

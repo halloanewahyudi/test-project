@@ -43,6 +43,7 @@ export default {
     SwiperSlide,
     CusCrusor,
   },
+  
   setup() {
     return {
       modules: [Mousewheel],
