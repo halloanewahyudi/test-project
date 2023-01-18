@@ -80,12 +80,9 @@ followArea.forEach(function(el) {
 </script>
 <template>
     
-<section class="blocks w-full relative x bg-primary text-white"> 
-<div class="block-clickable p-5 max-w-screen-lg mx-auto text-center min-h-[80vh] flex flex-col justify-center">
-            <div class=" ">
-            <h1 class="text-5xl font-bold ">Proin non lorem nec metus imperdiet sagittis viverra sed libero.</h1>
-       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque non aut laudantium neque velit expedita voluptate enim ut? Fuga, voluptas hic vitae deleniti doloribus voluptatum possimus quos officia magni rem!</p>
-          </div>
+<section class="blocks w-full relative "> 
+<div class="block-clickable ">
+      <slot />
 </div>
 <cursor class="cursor"><span class="cursor-text"><ArrowUpRightIcon class="text-danger animate-bounce"/></span></cursor>
 

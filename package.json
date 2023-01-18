@@ -10,6 +10,7 @@
   "dependencies": {
     "@heroicons/vue": "^2.0.13",
     "gsap": "^3.11.4",
+    "swiper": "^8.4.6",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6",
     "vue3-carousel": "^0.2.9"
