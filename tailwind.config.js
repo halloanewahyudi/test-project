@@ -13,6 +13,7 @@ module.exports = {
         dangerHover:'#FB2576',
         light:'#FFFCF9',
         dark: '#151217',
+        gray:'#333'
       },
   },
   plugins: [],

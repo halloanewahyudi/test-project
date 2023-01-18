@@ -84,7 +84,10 @@ followArea.forEach(function(el) {
 <div class="block-clickable ">
       <slot />
 </div>
-<cursor class="cursor"><span class="cursor-text"><ArrowUpRightIcon class="text-danger animate-bounce"/></span></cursor>
+<cursor class="cursor"><span class="cursor-text">
+  <ArrowUpRightIcon class="text-danger animate-bounce"/>
+</span>
+</cursor>
 
 </section>
 </template>

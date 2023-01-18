@@ -66,7 +66,7 @@ export default {
       <SwiperSlide
         v-for="item in products"
         :key="item"
-        class="min-h-[80vh] bg-primary text-white flex gap-x-5 items-center"
+        class="min-h-[80vh] bg-gradient-to-tr from-primary to-secondary text-white flex gap-x-5 items-center"
       >
         <div
           class="kiri bg-secondary w-full h-full block min-h-[80vh]"
@@ -80,12 +80,13 @@ export default {
           <p class="mb-6 max-w-[80%]">{{ item.deskripsi }}</p>
           <button
             class="
-              py-2
-              px-4
+              py-3
+              px-6
               rounded-full
+              text-xl
               bg-light
               text-primary
-              hover:text-white hover:bg-gradient-to-tr
+              hover:text-white hover:bg-gradient-to-tr hover:-translate-y-2 hover:shadow-lg
               from-dangerHover
               to-secondary
               transition
