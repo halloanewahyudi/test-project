@@ -1,19 +1,16 @@
 <script setup>
-import Slideshow from '../components/Slideshow.vue';
-import WhatWeDo from '../components/WhatWeDo.vue';
-import WhayChooseUs from '../components/WhayChooseUs.vue';
- import CustomCursor from '../components/CustomCursor.vue';
- import Products from '../components/Products.vue';
- import HoverImage from '../components/HoverImage.vue';
+ import AboutSection from '../components/homepage/AboutSection.vue';
+import ArticleSection from '../components/homepage/ArticleSection.vue';
+import CoverSection from '../components/homepage/CoverSection.vue';
+import PaketSection from '../components/homepage/PaketSection.vue';
+import ServiceSection from '../components/homepage/ServiceSection.vue';
+
 </script>
 <template>
   <main>
-   <Slideshow />
-   <WhatWeDo />
-   <WhayChooseUs />
-<Products />
-<HoverImage />
-
- <CustomCursor />  
+     <CoverSection />
+     <ServiceSection />
+     <PaketSection />
+     <ArticleSection />
   </main>
 </template>

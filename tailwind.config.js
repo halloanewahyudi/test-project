@@ -4,8 +4,10 @@ module.exports = {
       "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
+
   theme: {
     colors: {
+        transaparent:'transparent',
         white:'#ffffff',
         primary: '#0002A1',
         secondary: '#332FD0',
