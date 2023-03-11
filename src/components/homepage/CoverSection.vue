@@ -22,7 +22,18 @@
             </div>
         </div>
     </section>
-    <AboutSectionVue id="porto" class="w-full min-h-screen bg-secondary fixed top-0 left-0 transition-all duration-500 ease-linear" />
+    <div id="porto" class="w-full min-h-screen bg-secondary fixed top-0 left-0 transition-all duration-500 ease-linear" >
+        <div class="container mx-auto px-8">
+            <div class="flex items-center gap-4">
+                <div class="w-full md:w-1/2">
+                    <h1>Lorem ipsum</h1>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <SlidePorto />
+                </div>
+            </div>
+        </div>
+    </div>
 </template>
 <script setup>
 import VideoBackground from 'vue-responsive-video-background-player'
@@ -30,7 +41,7 @@ import { useMouse } from '@vueuse/core'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 import { ref, watch, onMounted, reactive, computed } from "vue"
-import AboutSectionVue from './AboutSection.vue'
+import SlidePorto from './SlidePorto.vue'
 const { x, y } = useMouse()
 const ball = ref(null)
 const cover = ref({
@@ -42,7 +53,6 @@ const cover = ref({
 
 onMounted(() => {
     gsap.registerPlugin(ScrollTrigger);
-    setTimeout(() => {
         ball.value.style.cssText = 'width:400px;height:400px'
         gsap.timeline({
             ease: 'linear'
@@ -89,8 +99,6 @@ onMounted(() => {
                     scrub: true,
                 }
             })
-    }, 1000) // end timeout;
-
 })
 watch([x, y], (newVal) => {
     const posx = newVal[0] + 'px'
