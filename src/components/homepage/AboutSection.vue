@@ -1,17 +1,17 @@
 <template>
-    <section>
-        <div class="container mx-auto px-8">
-            <div class="flex items-center gap-4">
-                <div class="w-full md:w-1/2">
-                    <h1>Lorem ipsum</h1>
-                </div>
-                <div class="w-full md:w-1/2">
-                    <SlidePorto />
-                </div>
+    <div class="flex flex-col md:flex-row items-center">
+        <div class="w-full md:w-1/2">
+            <div class="max-w-md mx-auto">
+                <slot />
             </div>
         </div>
-    </section>
+        <div class="w-full md:w-1/2">
+            <SlidePorto />
+        </div>
+    </div>
 </template>
 <script setup>
+import AboutText from './AboutText.vue';
 import SlidePorto from './SlidePorto.vue'
+
 </script>

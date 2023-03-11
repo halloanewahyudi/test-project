@@ -6,7 +6,7 @@ module.exports = {
   ],
 
   theme: {
-    colors: {
+  /*   colors: {
         transaparent:'transparent',
         white:'#ffffff',
         primary: '#0002A1',
@@ -16,7 +16,7 @@ module.exports = {
         light:'#FFFCF9',
         dark: '#151217',
         gray:'#333'
-      },
+      }, */
   },
   plugins: [],
 }
